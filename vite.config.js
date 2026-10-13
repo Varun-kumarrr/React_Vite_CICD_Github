@@ -1,12 +1,12 @@
-import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
 
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/React_Vite_CICD_Github_Varun/",
-  server : {
-    open:true,
-    port:3001,
+  base: '/React_Vite_CICD_Github/',
+  server: {
+    open: true,
+    port: 3001,
   },
-});
+})
