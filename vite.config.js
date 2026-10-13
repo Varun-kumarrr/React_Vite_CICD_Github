@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
+  base: "/React_Vite_CICD_Github/",
   server : {
     open:true,
     port:3001,
